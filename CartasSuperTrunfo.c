@@ -82,6 +82,10 @@ int main() {
     printf("Digite a densidade Populacional: \n");
     scanf("%f", &densidadepopulacionalcidade2estado2);
 
+    printf("\n");
+
+    //Divisão de densidade entre 2 cartas
+
     divisaopibpercapitacidade1estado1 = pibcidade1deestado1 / densidadepopulacionalcidade1estado1;
     divisaopibpercapitacidade2estado2 = pibcidade2deestado2 / densidadepopulacionalcidade2estado2;
     
@@ -111,6 +115,8 @@ int main() {
     printf("Densidade Poulacional:%f\n", densidadepopulacionalcidade2estado2);
     printf("Pib per capita é: %.f\n", divisaopibpercapitacidade2estado2);
 
+    printf("\n");
+
     // soma e Exibição do Poder Especial
 
     poderespecialcidade1 = populacaocidade1deestado1 + areacidade1deestado1 + pibcidade1deestado1 + pontosturisticoscidade1deestado1 + divisaopibpercapitacidade1estado1;
@@ -123,5 +129,7 @@ int main() {
 
     printf("Densidade Populacional de Carta 1 é menor que a de Carta 2? %d\n", densidadepopulacionalcidade1estado1 < densidadepopulacionalcidade2estado2);
     printf("Carta 1 vence a Carta 2? %d\n", poderespecialcidade1 > poderespecialcidade2);
+
+    printf("\n");
     return 0;
 }
