@@ -103,7 +103,7 @@ int main() {
     printf("\n");
     //exigibição de Cidade 2
 
-    printf("Segundad Cidade: %s\n", cidade1deestado2);
+    printf("Segunda Cidade: %s\n", cidade1deestado2);
     printf("População da Segunda cidade: %f\n", populacaocidade2deestado2);
     printf("Área da Segunda cidade: %f\n", areacidade2deestado2);
     printf("PIB da Seguda Cidade: %f\n", pibcidade2deestado2);
